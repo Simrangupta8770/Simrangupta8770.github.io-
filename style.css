@@ -1,0 +1,85 @@
+body{
+    margin:0;
+    padding:0;
+  background-color: rgb(228, 211, 211);
+ 
+}
+header{
+    width:100%;
+    height:150px;
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    padding-top: 2%;
+    padding-left:20%;
+    font-weight: 200;
+}
+.heading{
+    font-size: 2em;
+}
+
+   
+    
+
+.navbar{
+    background-color: rgb(76, 94, 250);
+    width:60%;
+    left: 0;
+   margin-top: 50px;
+   height:45px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 1rem;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    color:white;
+   margin-bottom: 0;
+  padding-bottom: 0;
+  margin-left: 0;
+   
+}
+.navbar ul li{
+padding-top: 15px;
+display: block;
+margin-bottom: 5px;
+padding-bottom: 0;
+height:35px;
+margin-left: 0;
+}
+.navbar ul li a{
+   padding: 20px 20px 0px 20px;
+   text-decoration: none;
+   color: white;
+   margin-bottom: 0;
+  
+}
+.navbar ul li:hover{
+    background-color: blue;
+    padding-bottom: 0;
+}
+.active{
+    background-color: blue;
+}
+.main-content{
+   display: flex;
+   flex-direction: column;
+    width:60%;
+    margin-left:20%;
+}
+.main{
+    display:flex;
+    flex-direction: row;
+    background-color: white;
+   justify-content: space-between;
+}
+.container{
+    padding:20px 20px 20px 45px;
+}
+footer{
+    background-color: rgb(76, 94, 250) ;
+    color:white;
+    text-align: center;
+    padding :10px 20px 10px 20px;
+}
