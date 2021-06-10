@@ -82,6 +82,11 @@ margin-left: 0;
 .container{
     padding:20px 20px 20px 45px;
 }
+.useful ul li a{
+     text-decoration:none; 
+    color:palevioletred;
+    padding-left:0;
+}
 footer{
     background-color: rgb(76, 94, 250) ;
     color:white;
